@@ -27,7 +27,7 @@ def goThrough_Excel(sheet1, nrows, ncols, excel_path_toWrite, written_mark):
 
     write_supply_cursor = 0
 
-    while line <= nrows:
+    while line <= nrows - 1:
 
         print("row : ", line)
 
